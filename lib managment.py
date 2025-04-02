@@ -1,6 +1,6 @@
 class Library:
     def __init__(self):
-        self.inventory = {}
+        #self.inventory = {}
         self.borrowed_books = {}
 
     def add_book(self, title, copies):
