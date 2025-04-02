@@ -26,9 +26,7 @@ class Library:
             self.borrowed_books[user].remove(title)
             self.inventory[title] += 1
             print(f"{user} returned '{title}'.")
-        else:
-            print(f"Error: '{title}' was not borrowed by {user}.")
-
+       
     def borrowed_books_list(self):
         print("\nBorrowed Books:")
         for user, books in self.borrowed_books.items():
