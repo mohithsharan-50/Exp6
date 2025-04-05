@@ -1,0 +1,2 @@
+A Library Management System in Python helps manage book records, member details, and borrowing/return transactions.
+It supports features like adding, deleting, issuing, and searching for books efficiently.
